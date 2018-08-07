@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>https://github.com/kenghuo/2018/08/07/icon/</loc>
+    <lastmod>2018-08-07T10:26:18.928Z</lastmod>
+    <data>
+        <display>
+        <title>在线图片转 ico</title>
+        <pubTime>2018-08-07T10:25:05.000Z</pubTime>
+        
+        <tag>ico</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://github.com/kenghuo/2018/08/07/redux/</loc>
     <lastmod>2018-08-07T08:55:27.514Z</lastmod>
     <data>
@@ -30,9 +47,9 @@
         <title>github 绑定独立域名</title>
         <pubTime>2018-08-07T05:45:16.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>Github</tag>
+         
+        <tag>blog</tag>
          
          
            
@@ -119,9 +136,9 @@
         <title>hexo 和 github 创建博客最简单粗暴的方法</title>
         <pubTime>2018-07-26T09:31:49.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>blog</tag>
+         
+        <tag>hexo</tag>
          
          
            
