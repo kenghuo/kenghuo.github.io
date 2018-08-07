@@ -4,8 +4,46 @@
 
     
   <url>
+    <loc>https://github.com/kenghuo/2018/08/07/redux/</loc>
+    <lastmod>2018-08-07T08:20:55.030Z</lastmod>
+    <data>
+        <display>
+        <title>React Redux 入门</title>
+        <pubTime>2018-08-07T06:17:05.000Z</pubTime>
+        
+        <tag>React</tag>
+         
+        <tag>Redux</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/kenghuo/2018/08/07/domain/</loc>
+    <lastmod>2018-08-07T06:16:56.554Z</lastmod>
+    <data>
+        <display>
+        <title>github 绑定独立域名</title>
+        <pubTime>2018-08-07T05:45:16.000Z</pubTime>
+        
+        <tag>blog</tag>
+         
+        <tag>Github</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://github.com/kenghuo/2018/08/03/worker/</loc>
-    <lastmod>2018-08-03T08:59:11.897Z</lastmod>
+    <lastmod>2018-08-03T09:27:20.795Z</lastmod>
     <data>
         <display>
         <title>Web Worker</title>

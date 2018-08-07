@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://github.com/kenghuo/2018/08/07/redux/</loc>
+    
+    <lastmod>2018-08-07T08:20:55.030Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/kenghuo/2018/08/07/domain/</loc>
+    
+    <lastmod>2018-08-07T06:16:56.554Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://github.com/kenghuo/2018/08/03/worker/</loc>
     
-    <lastmod>2018-08-03T08:59:11.897Z</lastmod>
+    <lastmod>2018-08-03T09:27:20.795Z</lastmod>
     
   </url>
   
