@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>https://github.com/kenghuo/2018/08/09/gulp/</loc>
+    <lastmod>2018-08-09T06:04:08.466Z</lastmod>
+    <data>
+        <display>
+        <title>gulp 入门</title>
+        <pubTime>2018-08-09T00:45:54.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+        <tag>gulp</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://github.com/kenghuo/2018/07/26/hexo/</loc>
     <lastmod>2018-08-08T10:06:43.761Z</lastmod>
     <data>
@@ -172,9 +191,9 @@
         <title>hexo 和 github 创建博客最简单粗暴的方法</title>
         <pubTime>2018-07-26T09:31:49.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>blog</tag>
          
          
            
