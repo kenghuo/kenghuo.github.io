@@ -78,9 +78,9 @@
     </summary>
     
     
-      <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
-    
       <category term="blog" scheme="https://github.com/kenghuo/tags/blog/"/>
+    
+      <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
     
   </entry>
   
@@ -111,7 +111,7 @@
     <link href="https://github.com/kenghuo/2018/08/02/share/"/>
     <id>https://github.com/kenghuo/2018/08/02/share/</id>
     <published>2018-08-02T10:26:28.000Z</published>
-    <updated>2018-08-10T10:05:28.910Z</updated>
+    <updated>2018-08-10T10:07:09.310Z</updated>
     
     <content type="html"><![CDATA[<p>一键分享</p><a id="more"></a><p>一键分享的代码</p><p>复制这段代码到希望分享的网页, 即可实现一键分享功能<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">window._bd_share_config = &#123;</span><br><span class="line">    &quot;common&quot;: &#123;</span><br><span class="line">        &quot;bdSnsKey&quot;: &#123;&#125;,</span><br><span class="line">        &quot;bdText&quot;: &quot;&quot;,</span><br><span class="line">        &quot;bdMini&quot;: &quot;1&quot;,</span><br><span class="line">        &quot;bdMiniList&quot;: [&quot;tsina&quot;, &quot;weixin&quot;, &quot;mail&quot;, &quot;linkedin&quot;, &quot;copy&quot;, &quot;print&quot;],</span><br><span class="line">        &quot;bdPic&quot;: &quot;&quot;,</span><br><span class="line">        &quot;bdStyle&quot;: &quot;0&quot;,</span><br><span class="line">        &quot;bdSize&quot;: &quot;32&quot;</span><br><span class="line">    &#125;,</span><br><span class="line">    &quot;slide&quot;: &#123;</span><br><span class="line">        &quot;type&quot;: &quot;slide&quot;,</span><br><span class="line">        &quot;bdImg&quot;: &quot;3&quot;,</span><br><span class="line">        &quot;bdPos&quot;: &quot;left&quot;,</span><br><span class="line">        &quot;bdTop&quot;: &quot;100&quot;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">with(document) 0[</span><br><span class="line">    (getElementsByTagName(&apos;head&apos;)[0] || body)  </span><br><span class="line">        .appendChild(createElement(&apos;script&apos;))  </span><br><span class="line">        .src = &apos;http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=&apos; + ~(-new Date() / 36e5)</span><br><span class="line">];</span><br><span class="line"></span><br><span class="line">// 这里不支持 with 关键字的代码</span><br><span class="line">/* document.getElementsByTagName(&apos;head&apos;)[0].appendChild(document.createElement(&apos;script&apos;)).src = </span><br><span class="line">    &apos;http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=&apos; + ~(-new Date() / 36e5) */</span><br></pre></td></tr></table></figure></p><p><code>注意：</code> JavaScript 严格模式不支持 <code>with</code> 关键字, 需要修改代码</p><p><a href="http://share.baidu.com/code" target="_blank" rel="noopener">官方百度分享</a></p>]]></content>
     

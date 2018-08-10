@@ -22,8 +22,8 @@
     <url>%2F2018%2F08%2F07%2Fdomain%2F</url>
     <content type="text"><![CDATA[github 绑定独立域名 购买域名, 添加解析我的域名从阿里云购买的，以阿里云为例说明流程 在阿里云域名服务购买自己喜欢的域名链接 在阿里云控制台云解析 DNS 添加记录 解析自己的博客地址 三个位置依次选中 CNAME www 博客地址 重复操作添加 CNAME @ 博客地址 使用 github 博客页面可以参考 链接 非阿里云购买的域名解析 控制台域名管理 添加自己购买的域名 在自己购买域名的平台修改 DNS dns12.hichina.com dns11.hichina.com 控制台云解析 DNS 步骤同上 添加 github 重定向在博客根目录下添加文件 CNAME，文件内写入域名注意： 文件没有后缀名 写入内容仅域名地址 例如：kenghuo.ink 或者在 github 仓库 setting 中 Github Page 添加设置 Custom domain 添加域名]]></content>
       <tags>
-        <tag>Github</tag>
         <tag>blog</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
