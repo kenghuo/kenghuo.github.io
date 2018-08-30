@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/kenghuo/"/>
-  <updated>2018-08-30T02:04:05.098Z</updated>
+  <updated>2018-08-30T02:09:04.263Z</updated>
   <id>https://github.com/kenghuo/</id>
   
   <author>
@@ -17,25 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>dva</title>
     <link href="https://github.com/kenghuo/2018/08/30/dva/"/>
     <id>https://github.com/kenghuo/2018/08/30/dva/</id>
-    <published>2018-08-30T01:19:00.297Z</published>
-    <updated>2018-08-30T02:04:05.098Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title: dva-cli<br>date: 2018-08-30 09:19:00</p><h2 id="tags-“React”-”Dva”"><a href="#tags-“React”-”Dva”" class="headerlink" title="tags: [“React”,”Dva”]"></a>tags: [“React”,”Dva”]</h2><p>dva 会编译 less 添加 后缀</p><p>导致 dom 使用 class 无法实现样式效果</p><figure class="highlight plain"><figcaption><span>global</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">:global&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>添加这个全局标识符可以解决这个问题</p>]]></content>
+    <published>2018-08-30T02:08:45.000Z</published>
+    <updated>2018-08-30T02:09:04.263Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;hr&gt;
-&lt;p&gt;title: dva-cli&lt;br&gt;date: 2018-08-30 09:19:00&lt;/p&gt;
-&lt;h2 id=&quot;tags-“React”-”Dva”&quot;&gt;&lt;a href=&quot;#tags-“React”-”Dva”&quot; class=&quot;headerlink&quot; title=&quot;
-      
-    
     </summary>
     
+    
+      <category term="React" scheme="https://github.com/kenghuo/tags/React/"/>
+    
+      <category term="Dva" scheme="https://github.com/kenghuo/tags/Dva/"/>
     
   </entry>
   
@@ -138,9 +133,9 @@
     </summary>
     
     
-      <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
-    
       <category term="blog" scheme="https://github.com/kenghuo/tags/blog/"/>
+    
+      <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
     
   </entry>
   
