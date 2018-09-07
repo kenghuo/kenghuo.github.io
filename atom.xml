@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/kenghuo/"/>
-  <updated>2018-08-30T02:09:04.263Z</updated>
+  <updated>2018-09-07T06:49:13.054Z</updated>
   <id>https://github.com/kenghuo/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>react 遇到的问题</title>
+    <link href="https://github.com/kenghuo/2018/09/07/react-problem/"/>
+    <id>https://github.com/kenghuo/2018/09/07/react-problem/</id>
+    <published>2018-09-07T06:37:43.000Z</published>
+    <updated>2018-09-07T06:49:13.054Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 React 中遇到的一些问题</p><a id="more"></a><h3 id="dva-编译样式文件会生成后缀-class-无法正确匹配"><a href="#dva-编译样式文件会生成后缀-class-无法正确匹配" class="headerlink" title="dva 编译样式文件会生成后缀 class 无法正确匹配"></a>dva 编译样式文件会生成后缀 class 无法正确匹配</h3><p>demo.less<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.demo&#123;</span><br><span class="line">    color: red;</span><br><span class="line">    font-size: 1.6rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.demo_sanc&#123;</span><br><span class="line">    color: red;</span><br><span class="line">    font-size: 1.6rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>本意是为各个组件之间形成独立的样式，避免命名冲突</p><p>但是对于需要重复使用的组件 dom 结构因为 class 无法匹配导致样式缺失</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">:global&#123;</span><br><span class="line">    .demo&#123;</span><br><span class="line">        color: red;</span><br><span class="line">        font-size: 1.6rem;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>将样式添加到全局，编译不会添加后缀</p><h3 id="Object-assign"><a href="#Object-assign" class="headerlink" title="Object.assign"></a>Object.assign</h3><p>assign 是 ES6 提出的新特性，可以合并 JavaScript 对象<br><code>注意:</code> assign 是浅克隆</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用 React 中遇到的一些问题&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="React" scheme="https://github.com/kenghuo/tags/React/"/>
+    
+  </entry>
+  
+  <entry>
     <title>dva</title>
     <link href="https://github.com/kenghuo/2018/08/30/dva/"/>
     <id>https://github.com/kenghuo/2018/08/30/dva/</id>
     <published>2018-08-30T02:08:45.000Z</published>
-    <updated>2018-08-30T02:09:04.263Z</updated>
+    <updated>2018-09-07T06:42:44.694Z</updated>
     
     <summary type="html">
     
