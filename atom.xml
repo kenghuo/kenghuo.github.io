@@ -135,9 +135,9 @@
     </summary>
     
     
-      <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
-    
       <category term="blog" scheme="https://github.com/kenghuo/tags/blog/"/>
+    
+      <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
     
   </entry>
   
