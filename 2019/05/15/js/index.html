@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://github.com/kenghuo">
-  <title>react 遇到的问题 | kenghuo阿康</title>
+  <title>js 总结 | kenghuo阿康</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="使用 React 中遇到的一些问题">
-<meta name="keywords" content="React">
+  <meta name="description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理">
+<meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="react 遇到的问题">
-<meta property="og:url" content="https://github.com/kenghuo/2018/09/07/react-problem/index.html">
+<meta property="og:title" content="js 总结">
+<meta property="og:url" content="https://github.com/kenghuo/2019/05/15/js/index.html">
 <meta property="og:site_name" content="kenghuo阿康">
-<meta property="og:description" content="使用 React 中遇到的一些问题">
+<meta property="og:description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-16T08:58:56.123Z">
+<meta property="og:updated_time" content="2019-05-15T10:03:53.311Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="react 遇到的问题">
-<meta name="twitter:description" content="使用 React 中遇到的一些问题">
+<meta name="twitter:title" content="js 总结">
+<meta name="twitter:description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -133,42 +133,30 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-react-problem" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-js" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      react 遇到的问题
+      js 总结
     </h1>
   
 
         
-        <a href="/2018/09/07/react-problem/" class="archive-article-date">
-  	<time datetime="2018-09-07T06:37:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-07</time>
+        <a href="/2019/05/15/js/" class="archive-article-date">
+  	<time datetime="2019-05-15T09:26:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-15</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>使用 React 中遇到的一些问题</p>
+        <p>很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。<br>对自己之前的学习做个系统的整理</p>
 <a id="more"></a>
-<h3 id="dva-编译样式文件会生成后缀-class-无法正确匹配"><a href="#dva-编译样式文件会生成后缀-class-无法正确匹配" class="headerlink" title="dva 编译样式文件会生成后缀 class 无法正确匹配"></a>dva 编译样式文件会生成后缀 class 无法正确匹配</h3><p>demo.less<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.demo&#123;</span><br><span class="line">    color: red;</span><br><span class="line">    font-size: 1.6rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.demo_sanc&#123;</span><br><span class="line">    color: red;</span><br><span class="line">    font-size: 1.6rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>本意是为各个组件之间形成独立的样式，避免命名冲突</p>
-<p>但是对于需要重复使用的组件 dom 结构因为 class 无法匹配导致样式缺失</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">:global&#123;</span><br><span class="line">    .demo&#123;</span><br><span class="line">        color: red;</span><br><span class="line">        font-size: 1.6rem;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>将样式添加到全局，编译不会添加后缀</p>
-<hr>
-<h3 id="Object-assign"><a href="#Object-assign" class="headerlink" title="Object.assign"></a>Object.assign</h3><p>assign 是 ES6 提出的新特性，可以合并 JavaScript 对象<br><code>注意:</code> assign 是浅克隆 使用 Router 或者 state 时注意需要新建个对象地址 以免无法触发组件更新 componentDidUpdate 钩子函数</p>
-<h3 id="create-react-app"><a href="#create-react-app" class="headerlink" title="create-react-app"></a>create-react-app</h3><h4 id="打包地址默认为绝对路径-即服务器根目录"><a href="#打包地址默认为绝对路径-即服务器根目录" class="headerlink" title="打包地址默认为绝对路径(即服务器根目录)"></a>打包地址默认为绝对路径(即服务器根目录)</h4><p>使用相对路径可以在 <code>package.json</code> 添加 <code>homepage</code> 为 <code>.</code> 打包之后的文件请求路径为相对路径</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;name&quot;: &quot;react-demo&quot;,</span><br><span class="line">  &quot;version&quot;: &quot;0.1.0&quot;,</span><br><span class="line">  &quot;homepage&quot;: &quot;.&quot;,</span><br><span class="line">  &quot;private&quot;: true,</span><br><span class="line">  &quot;dependencies&quot;: &#123;</span><br><span class="line">    &quot;bootstrap&quot;: &quot;^4.1.3&quot;,</span><br><span class="line">    &quot;react&quot;: &quot;^16.4.2&quot;,</span><br><span class="line">    &quot;react-dom&quot;: &quot;^16.4.2&quot;,</span><br><span class="line">    &quot;react-redux&quot;: &quot;^5.0.7&quot;,</span><br><span class="line">    &quot;react-router-dom&quot;: &quot;^4.3.1&quot;,</span><br><span class="line">    &quot;react-scripts&quot;: &quot;1.1.4&quot;,</span><br><span class="line">    &quot;reactstrap&quot;: &quot;^6.4.0&quot;,</span><br><span class="line">    &quot;redux&quot;: &quot;^4.0.0&quot;,</span><br><span class="line">    &quot;redux-logger&quot;: &quot;^3.0.6&quot;,</span><br><span class="line">    &quot;redux-thunk&quot;: &quot;^2.3.0&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;scripts&quot;: &#123;</span><br><span class="line">    &quot;start&quot;: &quot;react-scripts start&quot;,</span><br><span class="line">    &quot;build&quot;: &quot;react-scripts build&quot;,</span><br><span class="line">    &quot;test&quot;: &quot;react-scripts test --env=jsdom&quot;,</span><br><span class="line">    &quot;eject&quot;: &quot;react-scripts eject&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="BroswerRouter-使用二级目录无法访问"><a href="#BroswerRouter-使用二级目录无法访问" class="headerlink" title="BroswerRouter 使用二级目录无法访问"></a>BroswerRouter 使用二级目录无法访问</h4><p>需要在 <code>BrowserRouter</code> 中设置 <code>basename</code> 和二级目录名称一致可以完成访问</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;BrowserRouter basename=&apos;/Demo&apos; &gt;</span><br><span class="line">    &lt;!-- 注意这里的 basename 和部署项目的二级目录一致 该项目部署地址在服务器根目录 Demo 文件夹下 --&gt;</span><br><span class="line">    &lt;div&gt;</span><br><span class="line">        &lt;Route path=&quot;/&quot; component=&#123;App&#125;/&gt;</span><br><span class="line">        &lt;Route path=&quot;/index&quot; component=&#123;Index&#125;/&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/BrowserRouter&gt;</span><br></pre></td></tr></table></figure>
-<p>详细 demo <a href="https://github.com/kenghuo/demo.github.io/tree/master/react-demo">看这里</a></p>
-<hr>
+<h3 id="js数据类型"><a href="#js数据类型" class="headerlink" title="js数据类型"></a>js数据类型</h3><p>1.基本类型<br>undefined、null、number、string、boolean 以及 es6 提出的 symbol 总共 6 种基本数据类型</p>
+<p>2.引用类型<br>Object、Array 以及 Set、Map 等</p>
 
       
 
@@ -182,7 +170,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">React</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
         		</li>
       		
 		</ul>
@@ -238,7 +226,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://github.com/kenghuo/2018/09/07/react-problem/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://github.com/kenghuo/2019/05/15/js/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -252,18 +240,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/05/14/git-command/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          git_command
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/08/16/webpack/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">webpack 入门</div>
+    <a href="/2019/05/14/git-command/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">git_command</div>
       <i class="icon-circle-right"></i>
     </a>
   

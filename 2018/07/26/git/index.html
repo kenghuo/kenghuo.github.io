@@ -8,20 +8,18 @@
   <link rel="dns-prefetch" href="https://github.com/kenghuo">
   <title>Git 常用命令 | kenghuo阿康</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="git 常用命令">
+  <meta name="description" content="git 常用命令这里总结一些日常工作中使用git管理代码的常用命令对这些命令不感冒的Windows小伙伴也可以使用 git 可视化工具小乌龟下载地址">
 <meta name="keywords" content="GIT">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git 常用命令">
 <meta property="og:url" content="https://github.com/kenghuo/2018/07/26/git/index.html">
 <meta property="og:site_name" content="kenghuo阿康">
-<meta property="og:description" content="git 常用命令">
+<meta property="og:description" content="git 常用命令这里总结一些日常工作中使用git管理代码的常用命令对这些命令不感冒的Windows小伙伴也可以使用 git 可视化工具小乌龟下载地址">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-02T10:26:19.731Z">
+<meta property="og:updated_time" content="2019-05-14T07:17:52.829Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git 常用命令">
-<meta name="twitter:description" content="git 常用命令">
-  
-    <link rel="alternative" href="/atom.xml" title="kenghuo阿康" type="application/atom+xml">
+<meta name="twitter:description" content="git 常用命令这里总结一些日常工作中使用git管理代码的常用命令对这些命令不感冒的Windows小伙伴也可以使用 git 可视化工具小乌龟下载地址">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -44,7 +42,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<div class="overlay" style="background: #fff"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -54,7 +52,7 @@
 		  <h1 class="header-author"><a href="/">kenghuo阿康</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">踩的坑多了，不容易摔跤</p>
+		<p class="header-subtitle">坑踩的多了，不容易摔跤</p>
 		
 
 		<nav class="header-menu">
@@ -68,13 +66,17 @@
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
     			
             
+    			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			
+            
 		</nav>
 		<nav class="header-nav">
 			<div class="social">
 				
 					<a class="github" target="_blank" href="https://github.com/kenghuo" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=354396624&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
 		        
 			</div>
 		</nav>
@@ -85,7 +87,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+  	<div class="overlay js-overlay" style="background: #fff"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -98,7 +100,7 @@
 			  <h1 class="header-author js-header-author">kenghuo阿康</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>踩的坑多了，不容易摔跤<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>坑踩的多了，不容易摔跤<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -109,7 +111,7 @@
 					
 						<a class="github" target="_blank" href="https://github.com/kenghuo" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=354396624&site=qq&menu=yes" title="qq"><i class="icon-qq"></i></a>
 			        
 				</div>
 			</nav>
@@ -151,7 +153,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>git 常用命令</p>
+        <p>git 常用命令<br>这里总结一些日常工作中使用<code>git</code>管理代码的常用命令<br>对这些命令不感冒的Windows小伙伴也可以使用 git 可视化工具<br><a href="https://tortoisegit.org/download/" target="_blank" rel="noopener">小乌龟下载地址</a></p>
 <a id="more"></a>
 <h2 id="clone"><a href="#clone" class="headerlink" title="clone"></a>clone</h2><p>克隆或者叫下载, 将远程服务器上的仓库文件下载到本地</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone git@gitee.com:xxx `&lt;dirName&gt;`  </span><br><span class="line">git clone https://gitee.com/xxx `&lt;dirName&gt;`</span><br></pre></td></tr></table></figure>
@@ -176,30 +178,19 @@
 <li><p>合并分支修改 git merge <code>&lt;branchName&gt;</code>  将当前分支与 branchName 分支合并</p>
 </li>
 </ul>
+<h2 id="reset"><a href="#reset" class="headerlink" title="reset"></a>reset</h2><p>git 放弃当前的修改内容</p>
+<ul>
+<li><p>未使用 <code>git add</code> 缓存代码<br>可以使用 <code>git checkout -- filepathname</code> 放弃当前修改<br><strong>注意</strong> 该命令中 <code>--</code> 必不可少用于确保放弃当前修改回退为上次提交内容</p>
+</li>
+<li><p>已经使用 <code>git add</code> 添加代码到本地缓存<br>可以使用 <code>git reset HEAD filepathname</code> 将指定文件会蹲到上一次提交</p>
+</li>
+<li><p>已经使用 <code>git commit</code> 提交代码<br>可以使用 <code>git reset --hard HEAD</code> 回退到上次提交内容</p>
+</li>
+</ul>
+<p>其他命令可以参考<a href="/2019/05/14/git-command/">这里</a>;</p>
 
       
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -355,7 +346,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
@@ -374,13 +365,21 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
+      
+      
+      
+    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 100%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      
+        
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -405,7 +404,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+                <a href="javascript:void(0)" class="js-tag color2">Github</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -421,11 +420,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">ico</a>
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">img</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">ico</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -450,10 +453,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">worker</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Github</a>
               </li>
             
             <div class="clearfix"></div>
@@ -501,6 +500,12 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
     
 
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">老司机带带我！&lt;br/&gt;QQ：354396624&lt;br/&gt;微信：Yihuokeng</div>
+  	  	
+    	</section>
     
   </div>
   
