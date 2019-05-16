@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://github.com/kenghuo">
-  <title>js 总结 | kenghuo阿康</title>
+  <title>js 数据类型 | kenghuo阿康</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理">
+  <meta name="description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理这篇文章主要是总结下JavaScript中的数据类型">
 <meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="js 总结">
-<meta property="og:url" content="https://github.com/kenghuo/2019/05/15/js/index.html">
+<meta property="og:title" content="js 数据类型">
+<meta property="og:url" content="https://github.com/kenghuo/2019/05/15/js-type/index.html">
 <meta property="og:site_name" content="kenghuo阿康">
-<meta property="og:description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理">
+<meta property="og:description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理这篇文章主要是总结下JavaScript中的数据类型">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-15T10:03:53.311Z">
+<meta property="og:updated_time" content="2019-05-16T03:43:16.702Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="js 总结">
-<meta name="twitter:description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理">
+<meta name="twitter:title" content="js 数据类型">
+<meta name="twitter:description" content="很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。对自己之前的学习做个系统的整理这篇文章主要是总结下JavaScript中的数据类型">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -133,19 +133,19 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-js" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-js-type" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      js 总结
+      js 数据类型
     </h1>
   
 
         
-        <a href="/2019/05/15/js/" class="archive-article-date">
+        <a href="/2019/05/15/js-type/" class="archive-article-date">
   	<time datetime="2019-05-15T09:26:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-15</time>
 </a>
         
@@ -153,10 +153,34 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。<br>对自己之前的学习做个系统的整理</p>
-<a id="more"></a>
-<h3 id="js数据类型"><a href="#js数据类型" class="headerlink" title="js数据类型"></a>js数据类型</h3><p>1.基本类型<br>undefined、null、number、string、boolean 以及 es6 提出的 symbol 总共 6 种基本数据类型</p>
-<p>2.引用类型<br>Object、Array 以及 Set、Map 等</p>
+        <p>很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。<br>对自己之前的学习做个系统的整理<br>这篇文章主要是总结下JavaScript中的数据类型<br><a id="more"></a></p>
+<h3 id="js数据类型"><a href="#js数据类型" class="headerlink" title="js数据类型"></a>js数据类型</h3><p>1.基本类型<br>基本类型的复制就是在栈内存中开辟出了一个新的存储区域用来存储新的变量，这个变量有它自己的值，只不过和前面的值一样，所以如果其中一个的值改变，则不会影响到另一个。<br>Undefined、Null、Number、String、Boolean 以及 es6 提出的 Symbol 总共 6 种基本数据类型</p>
+<ul>
+<li>Undefined 变量已经声明，未赋值时该变量为 undefined  </li>
+<li>Null 特指对象的值未设置<br><code>注意：</code> 这里的 Null 特指对象已声明未赋值，因为一些遗留原因才作为基本类型之一的</li>
+<li>Number 数字类型</li>
+<li>String 字符串类型</li>
+<li>Boolean 布尔类型，枚举值 true false</li>
+<li>Symbol es6提出的新数据类型，类似于 String 类型，为了避免变量名冲突提出的一种新数据类型</li>
+</ul>
+<p>2.引用类型<br>定义了一个对象其实是在栈内存中存储了一个指针，这个指针指向堆内存中该对象的存储地址。复制给另一个对象的过程其实是把该对象的地址复制给了另一个对象变量，两个指针都指向同一个对象，所以若其中一个修改了，则另一个也会改变。<br>Object、Array、Set、Map、WeakSet、WeakMap等  </p>
+<ul>
+<li>Object 对象</li>
+<li>Array 对象</li>
+<li>Set 类似无重复数值的数组</li>
+<li>Map 成员名称可以为对象的对象</li>
+<li>WeakSet 类似 Set 但是成员只能为对象</li>
+<li>Map 类似 Map 同样的成员只能为对象</li>
+</ul>
+<h4 id="栈内存和堆内存"><a href="#栈内存和堆内存" class="headerlink" title="栈内存和堆内存"></a><a href="https://blog.csdn.net/juzipchy/article/details/78702234" target="_blank" rel="noopener">栈内存和堆内存</a></h4><p>为什么会有栈内存和堆内存之分？<br>通常与垃圾回收机制有关。为了使程序运行时占用的内存最小。<br>当一个方法执行时，每个方法都会建立自己的内存栈，在这个方法内定义的变量将会逐个放入这块栈内存里，随着方法的执行结束，这个方法的内存栈也将自然销毁了。因此，所有在方法中定义的变量都是放在栈内存中的；<br>当我们在程序中创建一个对象时，这个对象将被保存到运行时数据区中，以便反复利用（因为对象的创建成本通常较大），这个运行时数据区就是堆内存。堆内存中的对象不会随方法的结束而销毁，即使方法结束后，这个对象还可能被另一个引用变量所引用（方法的参数传递时很常见），则这个对象依然不会被销毁，只有当一个对象没有任何引用变量引用它时，系统的垃圾回收机制才会在核实的时候回收它。<br><!-- 作者：juzipchy 
+来源：CSDN 
+原文：https://blog.csdn.net/juzipchy/article/details/78702234 
+版权声明：本文为博主原创文章，转载请附上博文链接！ --></p>
+<h4 id="具体代码"><a href="#具体代码" class="headerlink" title="具体代码"></a>具体代码</h4><h5 id="基本类型"><a href="#基本类型" class="headerlink" title="基本类型"></a>基本类型</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">let und;</span><br><span class="line">let str = &apos;string&apos;;</span><br><span class="line">let num = 1;</span><br><span class="line">let bool = true;</span><br><span class="line">let sym = Symbol(&apos;this is a symbol&apos;);</span><br><span class="line">typeof und</span><br><span class="line">typeof str</span><br><span class="line">typeof num</span><br><span class="line">typeof bool</span><br><span class="line">typeof sym</span><br><span class="line"></span><br><span class="line">let str1 = str;</span><br><span class="line">str1 += &apos; change&apos;;</span><br><span class="line">console.log(str1); // &apos;string change&apos;</span><br><span class="line">console.log(str); // &apos;string&apos;</span><br></pre></td></tr></table></figure>
+<p>基本类型变量赋值会将值传递给新变量，新变量值变化不会影响原有变量</p>
+<h5 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">let num = Symbol(&apos;num&apos;);</span><br><span class="line">let obj = &#123;</span><br><span class="line">    [num]: 1</span><br><span class="line">&#125;;</span><br><span class="line">let obj1 = obj;</span><br><span class="line"></span><br><span class="line">obj1.num = 2;</span><br><span class="line">console.log(obj.num); // 2</span><br></pre></td></tr></table></figure>
+<p>引用类型会在堆内存里存储数据，栈内存保存的是指针，赋予新变量时，将指针赋值，修改新变量的值，堆内存中数据发生变化，原有变量也就会发生变化。</p>
+<h3 id="参考内容"><a href="#参考内容" class="headerlink" title="参考内容"></a>参考内容</h3><p>1.<a href="https://blog.csdn.net/juzipchy/article/details/78702234" target="_blank" rel="noopener">栈内存和堆内存</a> 作者：<a href="https://blog.csdn.net/juzipchy" target="_blank" rel="noopener">juzipchy</a>;<br>2.<a href="http://es6.ruanyifeng.com" target="_blank" rel="noopener">ECMAScript 6 入门</a> 作者：<a href="http://www.ruanyifeng.com/home.html" target="_blank" rel="noopener">阮一峰</a></p>
 
       
 
@@ -226,7 +250,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://github.com/kenghuo/2019/05/15/js/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://github.com/kenghuo/2019/05/15/js-type/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -239,6 +263,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2019/05/16/js-asyn/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          js异步操作
+        
+      </div>
+    </a>
   
   
     <a href="/2019/05/14/git-command/" id="article-nav-older" class="article-nav-link-wrap">
@@ -261,6 +294,19 @@
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#js数据类型"><span class="toc-number">1.</span> <span class="toc-text">js数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#栈内存和堆内存"><span class="toc-number">1.1.</span> <span class="toc-text">栈内存和堆内存</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#具体代码"><span class="toc-number">1.2.</span> <span class="toc-text">具体代码</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#基本类型"><span class="toc-number">1.2.1.</span> <span class="toc-text">基本类型</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#引用类型"><span class="toc-number">1.2.2.</span> <span class="toc-text">引用类型</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#参考内容"><span class="toc-number">2.</span> <span class="toc-text">参考内容</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
@@ -360,11 +406,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+                <a href="javascript:void(0)" class="js-tag color2">Github</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Github</a>
+                <a href="javascript:void(0)" class="js-tag color5">blog</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -384,19 +430,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">img</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">ico</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">MarkDown</a>
+                <a href="javascript:void(0)" class="js-tag color4">img</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">React</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">MarkDown</a>
               </li>
              
               <li class="article-tag-list-item">

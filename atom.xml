@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/kenghuo/"/>
-  <updated>2019-05-15T10:03:53.311Z</updated>
+  <updated>2019-05-16T09:15:23.263Z</updated>
   <id>https://github.com/kenghuo/</id>
   
   <author>
@@ -17,15 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>js 总结</title>
-    <link href="https://github.com/kenghuo/2019/05/15/js/"/>
-    <id>https://github.com/kenghuo/2019/05/15/js/</id>
-    <published>2019-05-15T09:26:52.000Z</published>
-    <updated>2019-05-15T10:03:53.311Z</updated>
+    <title>js异步操作</title>
+    <link href="https://github.com/kenghuo/2019/05/16/js-asyn/"/>
+    <id>https://github.com/kenghuo/2019/05/16/js-asyn/</id>
+    <published>2019-05-16T02:28:27.000Z</published>
+    <updated>2019-05-16T09:15:23.263Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。&lt;br&gt;对自己之前的学习做个系统的整理&lt;/p&gt;
+      &lt;p&gt;这篇文章主要内容就是总结下 JavaScript 中的异步操作。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://github.com/kenghuo/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js 数据类型</title>
+    <link href="https://github.com/kenghuo/2019/05/15/js-type/"/>
+    <id>https://github.com/kenghuo/2019/05/15/js-type/</id>
+    <published>2019-05-15T09:26:52.000Z</published>
+    <updated>2019-05-16T03:43:16.702Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多内容都是零零散散的，把之前学的用的JavaScript相关内容整理下。&lt;br&gt;对自己之前的学习做个系统的整理&lt;br&gt;这篇文章主要是总结下JavaScript中的数据类型&lt;br&gt;
     
     </summary>
     
@@ -39,7 +57,7 @@
     <link href="https://github.com/kenghuo/2019/05/14/git-command/"/>
     <id>https://github.com/kenghuo/2019/05/14/git-command/</id>
     <published>2019-05-14T07:15:42.000Z</published>
-    <updated>2019-05-14T07:44:19.828Z</updated>
+    <updated>2019-05-16T07:29:31.433Z</updated>
     
     <summary type="html">
     
@@ -75,7 +93,7 @@
     <link href="https://github.com/kenghuo/2018/08/16/webpack/"/>
     <id>https://github.com/kenghuo/2018/08/16/webpack/</id>
     <published>2018-08-16T06:11:30.000Z</published>
-    <updated>2018-08-17T06:18:28.682Z</updated>
+    <updated>2019-05-16T00:48:25.592Z</updated>
     
     <summary type="html">
     
@@ -83,6 +101,8 @@
     
     </summary>
     
+    
+      <category term="JavaScript" scheme="https://github.com/kenghuo/tags/JavaScript/"/>
     
       <category term="webpack" scheme="https://github.com/kenghuo/tags/webpack/"/>
     
@@ -159,9 +179,9 @@
     </summary>
     
     
-      <category term="blog" scheme="https://github.com/kenghuo/tags/blog/"/>
-    
       <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
+    
+      <category term="blog" scheme="https://github.com/kenghuo/tags/blog/"/>
     
   </entry>
   
@@ -282,7 +302,7 @@
     <link href="https://github.com/kenghuo/2018/07/20/blog/"/>
     <id>https://github.com/kenghuo/2018/07/20/blog/</id>
     <published>2018-07-20T03:27:50.000Z</published>
-    <updated>2018-08-02T10:25:20.360Z</updated>
+    <updated>2019-05-16T00:48:56.160Z</updated>
     
     <summary type="html">
     
@@ -290,6 +310,8 @@
     
     </summary>
     
+    
+      <category term="Github" scheme="https://github.com/kenghuo/tags/Github/"/>
     
       <category term="blog" scheme="https://github.com/kenghuo/tags/blog/"/>
     

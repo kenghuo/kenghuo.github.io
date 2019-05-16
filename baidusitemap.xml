@@ -4,14 +4,86 @@
 
     
   <url>
-    <loc>https://github.com/kenghuo/2019/05/15/js/</loc>
-    <lastmod>2019-05-15T10:03:53.311Z</lastmod>
+    <loc>https://github.com/kenghuo/2019/05/16/js-asyn/</loc>
+    <lastmod>2019-05-16T09:15:23.263Z</lastmod>
     <data>
         <display>
-        <title>js 总结</title>
+        <title>js异步操作</title>
+        <pubTime>2019-05-16T02:28:27.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/kenghuo/2019/05/14/git-command/</loc>
+    <lastmod>2019-05-16T07:29:31.433Z</lastmod>
+    <data>
+        <display>
+        <title>git_command</title>
+        <pubTime>2019-05-14T07:15:42.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/kenghuo/2019/05/15/js-type/</loc>
+    <lastmod>2019-05-16T03:43:16.702Z</lastmod>
+    <data>
+        <display>
+        <title>js 数据类型</title>
         <pubTime>2019-05-15T09:26:52.000Z</pubTime>
         
         <tag>JavaScript</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/kenghuo/2018/07/20/blog/</loc>
+    <lastmod>2019-05-16T00:48:56.160Z</lastmod>
+    <data>
+        <display>
+        <title>搭建个人博客</title>
+        <pubTime>2018-07-20T03:27:50.000Z</pubTime>
+        
+        <tag>Github</tag>
+         
+        <tag>blog</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://github.com/kenghuo/2018/08/16/webpack/</loc>
+    <lastmod>2019-05-16T00:48:25.592Z</lastmod>
+    <data>
+        <display>
+        <title>webpack 入门</title>
+        <pubTime>2018-08-16T06:11:30.000Z</pubTime>
+        
+        <tag>JavaScript</tag>
+         
+        <tag>webpack</tag>
          
          
            
@@ -31,23 +103,6 @@
         <tag>JavaScript</tag>
          
         <tag>gulp</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/kenghuo/2019/05/14/git-command/</loc>
-    <lastmod>2019-05-14T07:44:19.828Z</lastmod>
-    <data>
-        <display>
-        <title>git_command</title>
-        <pubTime>2019-05-14T07:15:42.000Z</pubTime>
-        
-        <tag>Git</tag>
          
          
            
@@ -144,23 +199,6 @@
 
     
   <url>
-    <loc>https://github.com/kenghuo/2018/08/16/webpack/</loc>
-    <lastmod>2018-08-17T06:18:28.682Z</lastmod>
-    <data>
-        <display>
-        <title>webpack 入门</title>
-        <pubTime>2018-08-16T06:11:30.000Z</pubTime>
-        
-        <tag>webpack</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://github.com/kenghuo/2018/07/20/markdown/</loc>
     <lastmod>2018-08-13T02:01:06.447Z</lastmod>
     <data>
@@ -219,25 +257,8 @@
         <title>github 绑定独立域名</title>
         <pubTime>2018-08-07T05:45:16.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>Github</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://github.com/kenghuo/2018/07/20/blog/</loc>
-    <lastmod>2018-08-02T10:25:20.360Z</lastmod>
-    <data>
-        <display>
-        <title>搭建个人博客</title>
-        <pubTime>2018-07-20T03:27:50.000Z</pubTime>
-        
         <tag>blog</tag>
          
          

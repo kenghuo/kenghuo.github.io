@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://github.com/kenghuo/2019/05/15/js/</loc>
+    <loc>https://github.com/kenghuo/2019/05/16/js-asyn/</loc>
     
-    <lastmod>2019-05-15T10:03:53.311Z</lastmod>
+    <lastmod>2019-05-16T09:15:23.263Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/kenghuo/2019/05/14/git-command/</loc>
+    
+    <lastmod>2019-05-16T07:29:31.433Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/kenghuo/2019/05/15/js-type/</loc>
+    
+    <lastmod>2019-05-16T03:43:16.702Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/kenghuo/2018/07/20/blog/</loc>
+    
+    <lastmod>2019-05-16T00:48:56.160Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/kenghuo/2018/08/16/webpack/</loc>
+    
+    <lastmod>2019-05-16T00:48:25.592Z</lastmod>
     
   </url>
   
@@ -12,13 +40,6 @@
     <loc>https://github.com/kenghuo/2018/08/09/gulp/</loc>
     
     <lastmod>2019-05-14T08:33:08.987Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/kenghuo/2019/05/14/git-command/</loc>
-    
-    <lastmod>2019-05-14T07:44:19.828Z</lastmod>
     
   </url>
   
@@ -58,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://github.com/kenghuo/2018/08/16/webpack/</loc>
-    
-    <lastmod>2018-08-17T06:18:28.682Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://github.com/kenghuo/2018/07/20/markdown/</loc>
     
     <lastmod>2018-08-13T02:01:06.447Z</lastmod>
@@ -89,13 +103,6 @@
     <loc>https://github.com/kenghuo/2018/08/07/domain/</loc>
     
     <lastmod>2018-08-07T06:16:56.554Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/kenghuo/2018/07/20/blog/</loc>
-    
-    <lastmod>2018-08-02T10:25:20.360Z</lastmod>
     
   </url>
   
