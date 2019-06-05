@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/kenghuo/2019/06/04/js-this/</loc>
+    <lastmod>2019-06-05</lastmod>
+  </url>  <url>
+    <loc>https://github.com/kenghuo/2019/06/02/js-typeof/</loc>
+    <lastmod>2019-06-05</lastmod>
+  </url>  <url>
+    <loc>https://github.com/kenghuo/2019/06/02/js-array-api/</loc>
+    <lastmod>2019-06-04</lastmod>
+  </url>  <url>
     <loc>https://github.com/kenghuo/2019/05/16/js-asyn/</loc>
     <lastmod>2019-05-16</lastmod>
   </url>  <url>

@@ -2,142 +2,163 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://github.com/kenghuo/2019/06/04/js-this/</loc>
+    
+    <lastmod>2019-06-05T03:09:40.714Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/kenghuo/2019/06/02/js-typeof/</loc>
+    
+    <lastmod>2019-06-05T02:53:02.947Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/kenghuo/2019/06/02/js-array-api/</loc>
+    
+    <lastmod>2019-06-04T09:44:19.878Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://github.com/kenghuo/2019/05/16/js-asyn/</loc>
     
-    <lastmod>2019-05-16T09:15:23.263Z</lastmod>
+    <lastmod>2019-05-16T09:15:24.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2019/05/14/git-command/</loc>
     
-    <lastmod>2019-05-16T07:29:31.433Z</lastmod>
+    <lastmod>2019-05-16T07:29:32.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2019/05/15/js-type/</loc>
     
-    <lastmod>2019-05-16T03:43:16.702Z</lastmod>
+    <lastmod>2019-05-16T03:43:18.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/07/20/blog/</loc>
     
-    <lastmod>2019-05-16T00:48:56.160Z</lastmod>
+    <lastmod>2019-05-16T00:48:58.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/08/16/webpack/</loc>
     
-    <lastmod>2019-05-16T00:48:25.592Z</lastmod>
+    <lastmod>2019-05-16T00:48:26.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/08/09/gulp/</loc>
     
-    <lastmod>2019-05-14T08:33:08.987Z</lastmod>
+    <lastmod>2019-05-14T08:33:10.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/08/03/worker/</loc>
     
-    <lastmod>2019-05-14T07:20:40.120Z</lastmod>
+    <lastmod>2019-05-14T07:20:42.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/07/26/git/</loc>
     
-    <lastmod>2019-05-14T07:17:52.829Z</lastmod>
+    <lastmod>2019-05-14T07:17:54.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/08/07/icon/</loc>
     
-    <lastmod>2019-05-14T06:52:19.135Z</lastmod>
+    <lastmod>2019-05-14T06:52:20.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/09/07/react-problem/</loc>
     
-    <lastmod>2019-01-16T08:58:56.123Z</lastmod>
+    <lastmod>2019-01-16T08:58:58.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/08/15/img/</loc>
     
-    <lastmod>2018-08-17T06:22:28.602Z</lastmod>
+    <lastmod>2018-08-17T06:22:30.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/07/20/markdown/</loc>
     
-    <lastmod>2018-08-13T02:01:06.447Z</lastmod>
+    <lastmod>2018-08-13T02:01:08.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/08/02/share/</loc>
     
-    <lastmod>2018-08-13T01:53:46.485Z</lastmod>
+    <lastmod>2018-08-13T01:53:48.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/07/26/hexo/</loc>
     
-    <lastmod>2018-08-08T10:06:43.761Z</lastmod>
+    <lastmod>2018-08-08T10:06:44.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/08/07/domain/</loc>
     
-    <lastmod>2018-08-07T06:16:56.554Z</lastmod>
+    <lastmod>2018-08-07T06:16:58.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/07/26/hexo-init/</loc>
     
-    <lastmod>2018-08-02T10:25:15.974Z</lastmod>
+    <lastmod>2018-08-02T10:25:16.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/2018/07/24/sort/</loc>
     
-    <lastmod>2018-08-02T10:25:01.332Z</lastmod>
+    <lastmod>2018-08-02T10:25:02.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/about/index.html</loc>
     
-    <lastmod>2018-07-31T03:28:11.016Z</lastmod>
+    <lastmod>2018-07-31T03:28:12.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/categories/index.html</loc>
     
-    <lastmod>2018-07-23T01:01:26.443Z</lastmod>
+    <lastmod>2018-07-23T01:01:28.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/kenghuo/tags/index.html</loc>
     
-    <lastmod>2018-07-23T01:01:19.243Z</lastmod>
+    <lastmod>2018-07-23T01:01:20.000Z</lastmod>
     
   </url>
   

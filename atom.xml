@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/kenghuo/"/>
-  <updated>2019-05-16T09:15:23.263Z</updated>
+  <updated>2019-06-05T03:09:40.714Z</updated>
   <id>https://github.com/kenghuo/</id>
   
   <author>
@@ -17,11 +17,72 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>js中的this(转)</title>
+    <link href="https://github.com/kenghuo/2019/06/04/js-this/"/>
+    <id>https://github.com/kenghuo/2019/06/04/js-this/</id>
+    <published>2019-06-04T07:20:40.000Z</published>
+    <updated>2019-06-05T03:09:40.714Z</updated>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;var number = 5;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var obj = &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    number: 3,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    fn1: (function () &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        var number;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        this.number *= 2;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        number = number * 2;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        number = 3;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        return function () &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            var num = this.number;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            this.number *= 2;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            console.log(num);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            number *= 3;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            console.log(number);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;)()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var fn1 = obj.fn1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;fn1.call(null);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;obj.fn1();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;console.log(window.number);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://github.com/kenghuo/tags/JavaScript/"/>
+    
+      <category term="this" scheme="https://github.com/kenghuo/tags/this/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js数组api</title>
+    <link href="https://github.com/kenghuo/2019/06/02/js-array-api/"/>
+    <id>https://github.com/kenghuo/2019/06/02/js-array-api/</id>
+    <published>2019-06-02T08:47:54.000Z</published>
+    <updated>2019-06-04T09:44:19.878Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;js 中的常用的数组 API&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://github.com/kenghuo/tags/JavaScript/"/>
+    
+      <category term="Array" scheme="https://github.com/kenghuo/tags/Array/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js中的typeof</title>
+    <link href="https://github.com/kenghuo/2019/06/02/js-typeof/"/>
+    <id>https://github.com/kenghuo/2019/06/02/js-typeof/</id>
+    <published>2019-06-02T07:25:31.000Z</published>
+    <updated>2019-06-05T02:53:02.947Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;js 中的 typeof 函数&lt;/p&gt;
+&lt;p&gt;typeof 基本类型: 除了 null 以外均可以返回进本类型本身对应的数据类型&lt;br&gt;       引用类型: 除了 function 以外均返回 object &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://github.com/kenghuo/tags/JavaScript/"/>
+    
+      <category term="typeof" scheme="https://github.com/kenghuo/tags/typeof/"/>
+    
+  </entry>
+  
+  <entry>
     <title>js异步操作</title>
     <link href="https://github.com/kenghuo/2019/05/16/js-asyn/"/>
     <id>https://github.com/kenghuo/2019/05/16/js-asyn/</id>
     <published>2019-05-16T02:28:27.000Z</published>
-    <updated>2019-05-16T09:15:23.263Z</updated>
+    <updated>2019-05-16T09:15:24.000Z</updated>
     
     <summary type="html">
     
@@ -39,7 +100,7 @@
     <link href="https://github.com/kenghuo/2019/05/15/js-type/"/>
     <id>https://github.com/kenghuo/2019/05/15/js-type/</id>
     <published>2019-05-15T09:26:52.000Z</published>
-    <updated>2019-05-16T03:43:16.702Z</updated>
+    <updated>2019-05-16T03:43:18.000Z</updated>
     
     <summary type="html">
     
@@ -57,7 +118,7 @@
     <link href="https://github.com/kenghuo/2019/05/14/git-command/"/>
     <id>https://github.com/kenghuo/2019/05/14/git-command/</id>
     <published>2019-05-14T07:15:42.000Z</published>
-    <updated>2019-05-16T07:29:31.433Z</updated>
+    <updated>2019-05-16T07:29:32.000Z</updated>
     
     <summary type="html">
     
@@ -75,7 +136,7 @@
     <link href="https://github.com/kenghuo/2018/09/07/react-problem/"/>
     <id>https://github.com/kenghuo/2018/09/07/react-problem/</id>
     <published>2018-09-07T06:37:43.000Z</published>
-    <updated>2019-01-16T08:58:56.123Z</updated>
+    <updated>2019-01-16T08:58:58.000Z</updated>
     
     <summary type="html">
     
@@ -93,7 +154,7 @@
     <link href="https://github.com/kenghuo/2018/08/16/webpack/"/>
     <id>https://github.com/kenghuo/2018/08/16/webpack/</id>
     <published>2018-08-16T06:11:30.000Z</published>
-    <updated>2019-05-16T00:48:25.592Z</updated>
+    <updated>2019-05-16T00:48:26.000Z</updated>
     
     <summary type="html">
     
@@ -113,7 +174,7 @@
     <link href="https://github.com/kenghuo/2018/08/15/img/"/>
     <id>https://github.com/kenghuo/2018/08/15/img/</id>
     <published>2018-08-15T07:31:39.000Z</published>
-    <updated>2018-08-17T06:22:28.602Z</updated>
+    <updated>2018-08-17T06:22:30.000Z</updated>
     
     <summary type="html">
     
@@ -131,7 +192,7 @@
     <link href="https://github.com/kenghuo/2018/08/09/gulp/"/>
     <id>https://github.com/kenghuo/2018/08/09/gulp/</id>
     <published>2018-08-09T00:45:54.000Z</published>
-    <updated>2019-05-14T08:33:08.987Z</updated>
+    <updated>2019-05-14T08:33:10.000Z</updated>
     
     <summary type="html">
     
@@ -151,7 +212,7 @@
     <link href="https://github.com/kenghuo/2018/08/07/icon/"/>
     <id>https://github.com/kenghuo/2018/08/07/icon/</id>
     <published>2018-08-07T10:25:05.000Z</published>
-    <updated>2019-05-14T06:52:19.135Z</updated>
+    <updated>2019-05-14T06:52:20.000Z</updated>
     
     <summary type="html">
     
@@ -170,7 +231,7 @@
     <link href="https://github.com/kenghuo/2018/08/07/domain/"/>
     <id>https://github.com/kenghuo/2018/08/07/domain/</id>
     <published>2018-08-07T05:45:16.000Z</published>
-    <updated>2018-08-07T06:16:56.554Z</updated>
+    <updated>2018-08-07T06:16:58.000Z</updated>
     
     <summary type="html">
     
@@ -190,7 +251,7 @@
     <link href="https://github.com/kenghuo/2018/08/03/worker/"/>
     <id>https://github.com/kenghuo/2018/08/03/worker/</id>
     <published>2018-08-03T07:45:39.000Z</published>
-    <updated>2019-05-14T07:20:40.120Z</updated>
+    <updated>2019-05-14T07:20:42.000Z</updated>
     
     <summary type="html">
     
@@ -210,7 +271,7 @@
     <link href="https://github.com/kenghuo/2018/08/02/share/"/>
     <id>https://github.com/kenghuo/2018/08/02/share/</id>
     <published>2018-08-02T10:26:28.000Z</published>
-    <updated>2018-08-13T01:53:46.485Z</updated>
+    <updated>2018-08-13T01:53:48.000Z</updated>
     
     <summary type="html">
     
@@ -228,7 +289,7 @@
     <link href="https://github.com/kenghuo/2018/07/26/hexo-init/"/>
     <id>https://github.com/kenghuo/2018/07/26/hexo-init/</id>
     <published>2018-07-26T09:31:49.000Z</published>
-    <updated>2018-08-02T10:25:15.974Z</updated>
+    <updated>2018-08-02T10:25:16.000Z</updated>
     
     <summary type="html">
     
@@ -248,7 +309,7 @@
     <link href="https://github.com/kenghuo/2018/07/26/hexo/"/>
     <id>https://github.com/kenghuo/2018/07/26/hexo/</id>
     <published>2018-07-26T08:50:19.000Z</published>
-    <updated>2018-08-08T10:06:43.761Z</updated>
+    <updated>2018-08-08T10:06:44.000Z</updated>
     
     <summary type="html">
     
@@ -266,7 +327,7 @@
     <link href="https://github.com/kenghuo/2018/07/26/git/"/>
     <id>https://github.com/kenghuo/2018/07/26/git/</id>
     <published>2018-07-26T06:12:46.000Z</published>
-    <updated>2019-05-14T07:17:52.829Z</updated>
+    <updated>2019-05-14T07:17:54.000Z</updated>
     
     <summary type="html">
     
@@ -284,7 +345,7 @@
     <link href="https://github.com/kenghuo/2018/07/24/sort/"/>
     <id>https://github.com/kenghuo/2018/07/24/sort/</id>
     <published>2018-07-24T01:07:03.000Z</published>
-    <updated>2018-08-02T10:25:01.332Z</updated>
+    <updated>2018-08-02T10:25:02.000Z</updated>
     
     <summary type="html">
     
@@ -302,7 +363,7 @@
     <link href="https://github.com/kenghuo/2018/07/20/blog/"/>
     <id>https://github.com/kenghuo/2018/07/20/blog/</id>
     <published>2018-07-20T03:27:50.000Z</published>
-    <updated>2019-05-16T00:48:56.160Z</updated>
+    <updated>2019-05-16T00:48:58.000Z</updated>
     
     <summary type="html">
     
@@ -322,7 +383,7 @@
     <link href="https://github.com/kenghuo/2018/07/20/markdown/"/>
     <id>https://github.com/kenghuo/2018/07/20/markdown/</id>
     <published>2018-07-20T03:04:52.000Z</published>
-    <updated>2018-08-13T02:01:06.447Z</updated>
+    <updated>2018-08-13T02:01:08.000Z</updated>
     
     <summary type="html">
     
